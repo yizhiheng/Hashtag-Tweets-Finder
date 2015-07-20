@@ -37,8 +37,7 @@ class TweetTableViewCell: UITableViewCell {
             
             if let profileImageURL = tweet.user.profileImageURL {
                 if let imageData = NSData(contentsOfURL: profileImageURL){
-                    //会阻塞主进程
-                    tweetProfileImageView?.image = UIImage(data: imageData)
+                    tweetProfileImageView?.image = Toucan(image: UIImage(data: imageData)!).maskWithRoundedRect(cornerRadius: 3).image
                 }
             }
         }

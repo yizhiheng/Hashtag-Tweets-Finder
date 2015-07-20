@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		817C00631B5DBC1C0018D8DE /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C00621B5DBC1C0018D8DE /* Toucan.swift */; };
 		81939E171B1E12E200E901F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81939E161B1E12E200E901F7 /* AppDelegate.swift */; };
 		81939E191B1E12E200E901F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81939E181B1E12E200E901F7 /* ViewController.swift */; };
 		81939E1C1B1E12E200E901F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81939E1A1B1E12E200E901F7 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		817C00621B5DBC1C0018D8DE /* Toucan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toucan.swift; sourceTree = "<group>"; };
 		81939E111B1E12E200E901F7 /* SmashTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81939E151B1E12E200E901F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81939E161B1E12E200E901F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				81939E1A1B1E12E200E901F7 /* Main.storyboard */,
 				81939E4A1B1E633400E901F7 /* TweetTableViewCell.swift */,
 				81939E361B1E134700E901F7 /* TweetTableViewController.swift */,
+				817C00621B5DBC1C0018D8DE /* Toucan.swift */,
 				81939E411B1E14B800E901F7 /* Twitter */,
 				81939E141B1E12E200E901F7 /* Supporting Files */,
 			);
@@ -243,6 +246,7 @@
 				81939E461B1E14B800E901F7 /* MediaItem.swift in Sources */,
 				81939E191B1E12E200E901F7 /* ViewController.swift in Sources */,
 				81939E171B1E12E200E901F7 /* AppDelegate.swift in Sources */,
+				817C00631B5DBC1C0018D8DE /* Toucan.swift in Sources */,
 				81939E481B1E14B800E901F7 /* TwitterRequest.swift in Sources */,
 				81939E491B1E14B800E901F7 /* User.swift in Sources */,
 				81939E4B1B1E633400E901F7 /* TweetTableViewCell.swift in Sources */,
@@ -443,6 +447,7 @@
 				81939E321B1E12E200E901F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81939E331B1E12E200E901F7 /* Build configuration list for PBXNativeTarget "SmashTagTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +456,7 @@
 				81939E351B1E12E200E901F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
